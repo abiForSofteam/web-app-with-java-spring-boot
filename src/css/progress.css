@@ -1,0 +1,36 @@
+:root{
+    --progColor: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    --progHeight: 7px;
+}
+
+#progressContainer{
+  width: fit-content;
+  height: fit-content;
+  /* background-color: #172657; */
+  padding: 5px 5px 5px 5px;
+  border-radius: 95px;
+  color: white
+}
+
+progress, progress::-webkit-progress-value {
+    width: 150px;
+    border: 0;
+    height: var(--progHeight);
+    border-radius: 90px;
+    background: var(--progColor);
+}
+progress::-webkit-progress-bar {
+    width: 150px;
+    border: 0;
+    height: var(--progHeight);
+    border-radius: 90px;
+    background: #C69599;
+}
+
+progress::-moz-progress-bar {
+    width: 150px;
+    border: 0;
+    height: var(--progHeight);
+    border-radius: 90px;
+    background: var(--progColor);
+}

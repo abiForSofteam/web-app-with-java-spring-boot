@@ -1,0 +1,83 @@
+/*===================================== MEDIA SCREEN ==========================================*/
+/* @media screen and (max-width: 2560px) {
+  footer{
+    position: absolute;
+  }
+} */
+
+
+@media screen and (max-width: 1440px) {
+
+  }
+  
+  
+  @media screen and (max-width: 1024px) {
+  
+  }
+  @media screen and (max-width: 768px) {
+    .bloc-container{
+      width: 100% !important;
+    }
+  }
+ @media screen and (max-width: 425px) {
+    .bloc-container ul > li{
+      margin: 12px !important;
+      line-height: 1.5;
+    }
+    .bloc-container ul > li{
+      margin: 12px !important;
+      line-height: 1.5;
+    }
+    .bloc-container ul > li:nth-child(1){
+      margin-top: 0 !important;
+
+    }
+    div.bloc-container > p:nth-child(2) > h2{
+        margin-bottom: 10px;
+    }
+    
+    .bloc-container{
+      padding: 10px;
+      padding-top: 20px;
+    }
+    .bloc-container h2{
+      font-size: 16.42px !important;
+    }
+    .bloc-container p {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    ol, ul {
+      padding-left: 0rem !important;
+  }
+  }
+   
+  @media screen and (max-width: 375px) {
+    .bloc-container{
+      padding: 10px;
+      padding-top: 20px;
+    }
+    .bloc-container h2{
+      font-size: 14px !important;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .main-container{
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    .bloc-container{
+      padding-left: 7px !important;
+      padding-right: 7px !important;
+    }
+    .bloc-container h2{
+      font-size: 13.1px !important;
+    }
+    
+    .bloc-container p ul li{
+      font-size: 12px !important;
+    }
+  }
+  
+  

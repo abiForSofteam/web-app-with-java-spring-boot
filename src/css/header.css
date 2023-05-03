@@ -1,0 +1,30 @@
+nav.navbar{
+ background-color: #F7F2F2 !important;
+ box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+
+}
+nav div a, nav div div ul li  a {
+ color: #C69599 !important;
+ text-decoration: none;
+}
+
+nav div div ul li {
+ margin-right: 20px;
+}
+
+div.collapse.navbar-collapse{
+justify-content: center;
+}
+
+nav > div > button.navbar-toggler{
+border: 0;
+}
+nav > div > button.navbar-toggler span.navbar-toggler-icon{
+border: 3px solid #C69599;
+border-radius: 0.25rem !important;
+}
+
+
+.navbar-toggler {
+    color: #F7F2F2;;
+}

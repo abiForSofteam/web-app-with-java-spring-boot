@@ -1,0 +1,137 @@
+/*===================================== MEDIA SCREEN ==========================================*/
+@media screen and (max-width: 1440px) {
+  .product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 0.25rem !important;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    background-color: #FFFFFF !important;
+  }
+  .product-description {
+    padding: 10px;
+  }
+  div.decription-title span {
+    color: #e11e35;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .product-title {
+    width: 200px;
+    font-size: 14px;
+  }
+  .product-price {
+    color: #e11e35;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  .product-image-container {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+  }
+  .product-image {
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+
+  .identity{
+    padding: 7px;
+  }
+  div.bloc-profile{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  div.bloc-profile p{
+    padding: 7px 17px;
+  margin: 0;
+  }
+  .profileinfos{
+    align-self: start;
+     line-height:1.5em;
+     font-weight: bold;
+     margin-left: 10px;
+     font-size: 18px,
+ }
+ .profilename{
+   font-size: 20px;
+  }
+  .accroche{
+   padding-top: 17px;
+   padding-right: 0;
+   padding-bottom: 10px;
+   padding-left: 17px;
+   font-size: 17px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+  }
+
+ .competences-fonctionnelles-container div{
+  width: 100%;
+ }
+ .competences-fonctionnelles-container div h2{
+  margin-bottom: 10px;
+ }
+ div.competence p{
+  padding-left: 1px;
+ }
+}
+
+@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 320px) { */
+  .identity{
+    padding: 7px;
+  }
+  .bloc-profile {
+    width: 100%;
+    padding: 0
+    /* margin-left: 7px; */
+  }
+
+  div.bloc-profile p{
+    padding: 10px;
+  }
+
+  .profileinfos{
+    align-self: start;
+     line-height:1.5em;
+     font-weight: bold;
+     margin-left: 10px;
+     font-size: 18px,
+ }
+ .profilename{
+   font-size: 20px;
+  }
+  .accroche{
+   padding-top: 17px;
+   padding-right: 0;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   font-size: 17px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   /* text-align: justify; */
+ }
+ p{
+  padding: 7px 17px;
+  margin: 0;
+ }
+ .competences-fonctionnelles-container div{
+  width: 100%;
+ }
+ .competences-fonctionnelles-container div h2{
+  margin-bottom: 10px;
+ }
+}
+

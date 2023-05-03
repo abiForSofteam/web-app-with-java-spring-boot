@@ -1,0 +1,106 @@
+@media screen and (max-width: 768px) {
+  .competence {
+    width: 35%;
+  }
+  .competence ul{
+    font-family: 'Montserrat';
+    color: #533d3d;
+    font-size: 14px;
+  }
+
+}
+@media screen and (max-width: 425px) {
+  .identity{
+    padding: 7px;
+  }
+  div.bloc-profile{
+    width: 100%;
+    padding: 0;
+    margin-top: 7px;
+  }
+
+  .profileinfos{
+    align-self: start;
+     line-height:1.5em;
+     font-weight: bold;
+     margin-left: 10px;
+     font-size: 18px,
+ }
+
+ .profilename{
+   font-size: 20px;
+  }
+  
+  .accroche{
+   padding-top: 17px;
+   padding-right: 0;
+   padding-bottom: 10px;
+   padding-left: 17px;
+   font-size: 17px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+  }
+
+ .competences-fonctionnelles-container div{
+  width: 100%;
+ }
+
+ .competences-fonctionnelles-container div ul li::marker{
+ color: rebeccapurple; 
+ font-size: 20px;
+ }
+
+ .competences-fonctionnelles-container div h2{
+  margin-bottom: 10px;
+ }
+
+
+}
+
+@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 320px) { */
+  .identity{
+    padding: 7px;
+  }
+  .bloc-profile {
+    width: 100%;
+    padding: 0
+    /* margin-left: 7px; */
+  }
+
+  div.bloc-profile p{
+    padding: 10px;
+  }
+
+  .profileinfos{
+    align-self: start;
+     line-height:1.5em;
+     font-weight: bold;
+     margin-left: 10px;
+     font-size: 18px,
+ }
+ .profilename{
+   font-size: 20px;
+  }
+  .accroche{
+   padding-top: 17px;
+   padding-right: 0;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   font-size: 17px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   /* text-align: justify; */
+ }
+ p{
+  padding: 7px 17px;
+  margin: 0;
+ }
+ .competences-fonctionnelles-container div{
+  width: 100%;
+ }
+ .competences-fonctionnelles-container div h2{
+  margin-bottom: 10px;
+ }
+}
+
