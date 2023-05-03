@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/web-app-with-java-spring-boot/static/css/main.03e1d1b2.css",
+    "main.js": "/web-app-with-java-spring-boot/static/js/main.03c66426.js",
+    "static/js/787.07e73ff4.chunk.js": "/web-app-with-java-spring-boot/static/js/787.07e73ff4.chunk.js",
+    "index.html": "/web-app-with-java-spring-boot/index.html",
+    "main.03e1d1b2.css.map": "/web-app-with-java-spring-boot/static/css/main.03e1d1b2.css.map",
+    "main.03c66426.js.map": "/web-app-with-java-spring-boot/static/js/main.03c66426.js.map",
+    "787.07e73ff4.chunk.js.map": "/web-app-with-java-spring-boot/static/js/787.07e73ff4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03e1d1b2.css",
+    "static/js/main.03c66426.js"
+  ]
+}
